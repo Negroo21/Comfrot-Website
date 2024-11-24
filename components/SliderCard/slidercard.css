@@ -1,0 +1,46 @@
+.homeSlide .box {
+    margin-top: 85px;
+    height: 500px;
+    padding: 0 40px 60px;
+}
+
+.homeSlide h1 {
+    font-size: 55px;
+    line-height: 60px;
+    margin: 55px 0 25px 0;
+}
+
+.homeSlide p {
+    margin: 35px 0;
+}
+
+.homeSlide ul {
+    position: absolute;
+    bottom: 25px;
+}
+
+.homeSlide ul li {
+    border: 3px solid #b8b7b7;
+    border-radius: 55%;
+    padding: 15px;
+}
+
+.homeSlide ul li button {
+    background: transparent !important;
+    color: transparent !important;
+}
+
+.homeSlide ul li button::before {
+    font-size: 15px !important;
+    color: #0f3460;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    margin: auto;
+}
+
+.homeSlide .box img {
+    width: 100%;
+    max-height: 430px;
+    object-fit: contain;
+}
